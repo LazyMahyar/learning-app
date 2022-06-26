@@ -1,17 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lalezar&family=Montserrat:wght@600&display=swap');
+
+html{
+  height: 100%;
+  font-family: 'Inconsolata', monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background: hsla(225, 59%, 11%, 1);
+  background: linear-gradient(0deg, hsla(225, 59%, 11%, 1) 0%, hsla(225, 40%, 18%, 1) 25%, hsla(213, 30%, 32%, 1) 61%, hsla(179, 44%, 55%, 1) 73%); 
+  background-repeat: no-repeat;
 }
 
-.item{
-  color: wheat;
+#root{
+  height: 100%;
+}
+
+.App{
+  width: 100%;
+  height: 100%;
 }

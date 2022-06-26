@@ -1,0 +1,24 @@
+.nav{
+    padding: 10px;
+    background-color: #101932;;
+    border-radius: 5px;
+  }
+  
+  .nav-btn{
+    background-color: #435d7f;
+    color: wheat;
+    width: 12%;
+    height: 10%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 4px;
+    vertical-align: middle;
+  }
+  
+  .nav-btn:hover{
+    background-color: #4b688d;
+  }
+  
+  .nav-btn:focus{
+    background-color: #17A2B8;
+  }
