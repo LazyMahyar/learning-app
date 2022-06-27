@@ -1,6 +1,6 @@
 import './App.css';
-import { ToDoItem } from './components/ToDo';
-import { Nav } from './components/Nav';
+import { ToDoItem } from './components/ToDo/ToDo';
+import { Nav } from './components/Nav/Nav'
 
 function App() {
   return (
