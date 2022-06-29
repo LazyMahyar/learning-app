@@ -6,7 +6,7 @@ export const NewToDo = (props) => {
         const toDoData = {
             ...enteredToDoData
         } 
-        console.log(toDoData);
+        props.onAddToDo(toDoData);
     }
 
     return <div className='todo-new'>
