@@ -1,10 +1,10 @@
 import './Nav.css'
 
-function Button(props){
+const Button = (props) => {
     return <button className="nav-btn">{props.name}</button>
 }
 
-export function Nav(){
+export const Nav = () =>{
     return(
         <div className="nav">
             <Button name="new to do"></Button>

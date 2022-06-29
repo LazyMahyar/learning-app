@@ -1,0 +1,63 @@
+.todo-new_all{
+    margin: 0 auto;
+    border: #101932 10px solid;
+    width: 85%;
+    border-radius: 10px;
+    height: 10rem;
+    background-color: rgb(65, 65, 65);
+    box-shadow: 3px 4px rgb(9, 124, 156);
+}
+
+.todo-new_controls{
+    display: inline-block;
+    position: relative;
+    background-color: #435d7f;
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 4px rgb(9, 124, 156);
+    border: #101932 5px solid;
+    margin: 0 auto;
+    margin: 15px;
+}
+
+.todo-new_label{
+    margin-right: 10px;
+    color: wheat;
+    font-size: 2rem
+}
+
+.todo-new_input{
+    background-color: #17A2B8;
+    border-radius: 10px;
+    box-shadow: 3px 4px rgb(9, 124, 156);
+    border: #101932 3px solid;
+    color: wheat;
+}
+
+.todo-new_wrapper{
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.todo-new_submit{
+    background-color: #435d7f;
+    width: 15%;
+    height: 2.9rem;
+    border-radius: 10px;
+    box-shadow: 3px 4px rgb(9, 124, 156);
+    border: #101932 5px solid;
+    color: wheat;
+    font-size: 1.7rem;
+}
+
+.todo-new_submit:hover{
+    background-color: #577aa9;
+}
+
+.todo-new_submit:active{
+    background-color: #3a516e;
+}

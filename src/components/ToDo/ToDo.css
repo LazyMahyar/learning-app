@@ -8,7 +8,18 @@
     display:inline-block;
     box-shadow: 3px 3px rgb(9, 124, 156);
 }
-  
+
+.todo-item-selected{
+  padding: 5px 0;
+  margin: 5px 30px;
+  color: wheat;
+  background-color: rgb(23, 110, 154);
+  border-radius: 20px;
+  width: 40%;
+  display:inline-block;
+  box-shadow: 3px 3px rgb(9, 124, 156);
+}
+
 .todo-name{
     margin-left: 1rem;
     text-align: left;
